@@ -21,6 +21,7 @@ conda activate python310_test_project
 ```
 pip install -r requirements.txt
 ```
+再び(python310_test_project) PS ~~~になるまでは待ち  
 必ず仮想環境に入った状態で行うこと。(base)のままだと大元のPCにライブラリが入って重くなるため。
 
 # 初期設定
@@ -28,6 +29,5 @@ pip install -r requirements.txt
 # 実行方法
 仮想環境に入った状態で((python310_test_project) PS ~~~になっている状態で)
 ```
-print(Hello!)
+python test.py
 ```
-再び(python310_test_project) PS ~~~になるまでは待ち
